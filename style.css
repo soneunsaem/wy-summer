@@ -1,0 +1,242 @@
+/* style.css */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'shinbi7';
+    src: url(./font/SSShinb7Regular.ttf);
+}
+
+body {
+    margin: 0 auto;
+    background-color: #76e4ff;
+    max-width: 425px;
+    font-family: 'shinbi7', Courier, monospace;
+}
+
+ul {
+    list-style: none;
+}
+
+#main-title {
+    height: 100%;
+}
+
+#main-title img {
+    height: 60%;
+    width: 100%;
+}
+
+.day_text {
+    border: 2px dotted #333;
+    background: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 83px;
+    width: 85%;
+    height: 30%;
+}
+
+.day_text .day_list div {
+    display: flex;
+    flex-flow: row; 
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    width: 290px;
+    font-size: 20px;
+
+}
+
+.day_text .day_list div p {
+    margin: 0;
+    padding: 0;
+    color: #12323D;
+    font-weight:600;
+}
+
+.day_text .day_list div p span {
+    color: #005AA0;
+}
+
+.day_text .day_list img {
+    width: 35px;
+    height: 35px;
+}
+
+#invitation {
+    height: 100%;
+}
+
+#invitation .text {
+    width: 85%;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#invitation .text p {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+#invitation .text .d-day {
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.title {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 28px;
+}
+
+#introduce .box {
+    width: 85%;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#introduce .box .int {
+    width: 90%;
+    margin: 0;
+}
+
+#introduce .ribon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#introduce .box2 img {
+    margin: 0 auto;
+}
+
+#video-photo {
+    height: 100%;
+
+}
+
+#video-photo .video-see {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 85%;
+   
+}
+
+#video-photo .video-see video {
+    width: 85%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.photo {
+    margin-top: 10px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.photo > figure {
+    background: var(--sub-color2);
+    /* outline: 2px solid red; */
+    padding: 5px 15px;
+}
+
+.photo > figure > .main-photo > img {
+    width: 95%;
+    height: 287px;
+    object-fit: cover;
+    display: block;
+}
+
+.photo > figure > .img-list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo > figure > .img-list > li {
+    width: calc((95% - 5px) / 5);
+    height: 60px;
+    object-fit: cover;
+    
+}
+
+.photo > figure > .img-list > li > a > img {
+    width: 95%;
+}
+
+#map {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 85%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#daumRoughmapContainer1656318801218 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#map .add {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#map .tel {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#map .tel p {
+    color : #0087B9;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#map .tel-2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#map .tel-2 li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    text-align: left;
+}
+
+#map .tel-2 li i {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+#map .tel-2 li .ball {
+    width: 25px;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
