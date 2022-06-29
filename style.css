@@ -231,7 +231,7 @@ a {
 }
 
 #map .tel-2 li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-bottom: 5px;
     display: flex;
     text-align: left;
@@ -247,6 +247,10 @@ a {
 #map .tel-2 li .ball {
     width: 25px;
     margin: 0;
+}
+
+#map .tel-2 li .saem {
+    font-size: 17px;
 }
 
 footer {
