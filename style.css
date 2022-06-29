@@ -21,6 +21,11 @@ ul {
     list-style: none;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
 #main-title {
     height: 100%;
 }
@@ -84,8 +89,9 @@ ul {
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    line-height: 30px;
-    padding-top: 10px;
+    line-height: 26px;
+    padding-top: 15px;
+    margin-bottom: 20px;
 }
 
 #invitation .text .d-day {
@@ -211,6 +217,12 @@ ul {
     color : #0087B9;
     margin-bottom: 24px;
     text-align: center;
+}
+
+#map .tel p span {
+    font-size : 15px;
+    margin-top: 10px;
+    color: #005AA0;
 }
 
 #map .tel-2 {
